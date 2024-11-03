@@ -1,5 +1,5 @@
 const express = require('express');
-const fetch = require('node-fetch');
+const fetch = require('node-fetch').default;
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -13,7 +13,7 @@ app.post('/form', async (req, res) => {
     try {
         const response = await fetch('/.netlify/functions/sendEmail', {
             method: 'POST',
-            body: JSON.stringify({ name, start, destinations, numbers, emails }),
+            body: JSON.stringify({ name, start, destinations, numbers, emails, messages }),
             headers: { 'Content-Type': 'application/json' },
         });
 
