@@ -338,7 +338,7 @@ exports.handler = async function (event, context) {
                   <p>Salut</p>
                   <p>
 Voici le Message de contact <br>
-Le nom : ${name} <br> Numéro : ${numbers} <br>Email : ${emails} <br>Message : ${messages} <br>
+Le nom : ${name} <br> Nombre de Passagers : ${numbers} <br>Email : ${emails} <br>Message : ${messages} <br>
 </p>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
                     <tbody>

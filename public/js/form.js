@@ -7,7 +7,7 @@ const email = document.querySelector('#email')
 const message = document.querySelector('#message')
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    const name = nom.value;
+    const name = nom.value
     const start = depart.value;
     const destinations = destination.value;
     const numbers = nombre.value;
