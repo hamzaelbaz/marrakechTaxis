@@ -8037,15 +8037,16 @@ th {
 		font-size: 12px
 	}
 }
-@media only screen and (max-width: 480px) {
-    table {
-        font-size: 8px;
-        width: 95%;
-    }
-}
 @media only screen and (max-width: 560px) {
     table {
         font-size: 9px;
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    table {
+        font-size: 8px;
         width: 95%;
     }
 }
