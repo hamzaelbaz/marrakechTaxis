@@ -369,7 +369,7 @@ Le nom : ${name} <br> Nombre de Passagers : ${numbers} <br>Email : ${emails} <br
                 <tr>
                   <td class="content-block">
                     <span class="apple-link">Email de réservation</span>
-                    <br> <a href="https://marrakechtaxis.com/">www.marrakechtaxis.com/</a>.
+                    <br> <a href="https://www.marrakechtaxis.com/">www.marrakechtaxis.com/</a>.
                   </td>
                 </tr>
               </table>
